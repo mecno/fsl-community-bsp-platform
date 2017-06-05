@@ -7,18 +7,21 @@
   <remote fetch="https://github.com/mecno" name="freescale"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
 
-  <project remote="yocto" revision="fido" name="poky" path="sources/poky"/>
-  <project remote="yocto" revision="fido" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
+  <project remote="yocto" revision="c53ddb2006f04051b00df3189fe8d35bb49ef3c7" name="poky" path="sources/poky"/>
+  <project remote="freescale" revision="b6dc719d73bd6a06efdcb530a080b308cc935739" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
 
-  <project remote="oe" revision="fido" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="oe" revision="902964a4da26e46018d2a8d17dcdda1ac4627a39" name="meta-openembedded" path="sources/meta-openembedded"/>
 
-  <project remote="freescale" revision="fido" name="fsl-community-bsp-base" path="sources/base">
+  <project remote="freescale" revision="51e8b84910709d859e0a3123cc780454f8717d7f" name="fsl-community-bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
 	<copyfile dest="setup-environment" src="setup-environment"/>
   </project>
 
-  <project remote="freescale" revision="fido" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
+  <project remote="freescale" revision="0a57db3558fb8841b2093b4907de1ab2a91aef72" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
 </manifest>
 
 
 
+
+
+ 
